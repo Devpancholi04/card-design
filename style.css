@@ -1,0 +1,78 @@
+body{
+    background-color: gray;
+}
+.card{
+    background-color: white;
+    /* margin-left: 40%; */
+    margin: auto;
+    margin-top: 100px;
+    width: 20%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+div img{
+    width: 97%;
+    height: 35%;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px ;
+    border-radius: 10px;
+}
+
+div .para p{
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.para{
+    padding: 5px;
+}
+
+.p1{
+    margin-left: 10px;
+}
+
+h4{
+    margin-left: 15px;
+}
+
+.main{
+    margin-left: 15px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    border: 2px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:royalblue;
+    color: blue;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    .card{
+        height: 600px;
+        width: 75%;
+    }
+
+    .main{
+        margin-top: -5px;
+    }
+
+    .end{
+        width: 100px;
+        margin-left: 90px;
+    }
+
+}
